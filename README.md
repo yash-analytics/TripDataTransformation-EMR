@@ -32,12 +32,19 @@
 ## Job Submission & Tracking
 
 - **Terminal Submission**: Overview of job submission via AWS Cloud9 terminal.
+
   ![Submitting job via terminal](./Project%20Screenshots/1.%20Submitting%20job%20on%20terminal.png)
+
 - **EMR Step Submission**: Detailed view of job submission using EMR Step.
+
   ![Submitting job via EMR Step](./Project%20Screenshots/2.%20Submitting%20job%20via%20EMR%20Step.png)
+
 - **Spark UI**: Monitoring the Spark job through EMR Spark UI.
+
   ![EMR Spark UI](./Project%20Screenshots/3.%20EMR%20Spark%20UI.png)
+
 - **Hadoop UI**: Tracking job progress using the Hadoop UI.
+
   ![Hadoop UI](./Project%20Screenshots/4.%20Hadoop%20UI.png)
 
 ## Results
