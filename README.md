@@ -15,13 +15,13 @@
 
 **Architecture Overview**:
 - The project utilizes a distributed processing architecture with AWS services including EMR for Spark processing, S3 for storage, and Cloud9 as a development environment.
-- ![Architecture Diagram](https://github.com/username/TripDataTransformation-EMR/Architecture/TripDataTransformation-EMR.drawio.png)
+- ![Architecture Diagram](./Architecture/TripDataTransformation-EMR.drawio.png)
 
 **Data Sources**:
 - Data is sourced from CSV files stored in an AWS S3 bucket.
 
 **Transformation Steps**:
-- The ETL process is driven by a script ([spark-etl.py](https://github.com/username/TripDataTransformation-EMR/spark-etl.py)).
+- The ETL process is driven by a script ([spark-etl.py](./spark-etl.py)).
 - Read data from the S3 bucket using Spark's CSV reader with schema inference enabled.
 - Apply necessary data transformations as defined in the ETL script.
 - Write the transformed data back to S3 as Parquet files for optimized storage and access.
@@ -32,13 +32,13 @@
 ## Job Submission & Tracking
 
 - **Terminal Submission**: Overview of job submission via AWS Cloud9 terminal.
-  ![Submitting job via terminal](https://github.com/username/TripDataTransformation-EMR/Project%20Screenshots/1.%20Submitting%20job%20on%20terminal.png)
+  ![Submitting job via terminal](./Project%20Screenshots/1.%20Submitting%20job%20on%20terminal.png)
 - **EMR Step Submission**: Detailed view of job submission using EMR Step.
-  ![Submitting job via EMR Step](https://github.com/username/TripDataTransformation-EMR/Project%20Screenshots/2.%20Submitting%20job%20via%20EMR%20Step.png)
+  ![Submitting job via EMR Step](./Project%20Screenshots/2.%20Submitting%20job%20via%20EMR%20Step.png)
 - **Spark UI**: Monitoring the Spark job through EMR Spark UI.
-  ![EMR Spark UI](https://github.com/username/TripDataTransformation-EMR/Project%20Screenshots/3.%20EMR%20Spark%20UI.png)
+  ![EMR Spark UI](./Project%20Screenshots/3.%20EMR%20Spark%20UI.png)
 - **Hadoop UI**: Tracking job progress using the Hadoop UI.
-  ![Hadoop UI](https://github.com/username/TripDataTransformation-EMR/Project%20Screenshots/4.%20Hadoop%20UI.png)
+  ![Hadoop UI](./Project%20Screenshots/4.%20Hadoop%20UI.png)
 
 ## Results
 
